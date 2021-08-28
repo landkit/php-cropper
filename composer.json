@@ -1,0 +1,26 @@
+{
+    "name": "landkit/php-cropper",
+    "type": "library",
+    "license": "proprietary",
+    "minimum-stability": "stable",
+    "homepage": "https://github.com/landkit/php-cropper",
+    "authors": [
+        {
+            "name": "Land Kit",
+            "email": "landkit.packages@gmail.com",
+            "homepage": "https://github.com/landkit"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "LandKit\\Cropper\\": "src/"
+        }
+    },
+    "require": {
+        "php": "^7.0|^8.0",
+        "landkit/php-functions": "^1.0",
+        "rosell-dk/webp-convert": "^2.6",
+        "ext-fileinfo": "*",
+        "ext-gd": "*"
+    }
+}
